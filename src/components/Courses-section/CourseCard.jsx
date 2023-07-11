@@ -6,7 +6,7 @@ const CourseCard = (props) => {
   return (
     <div className="single__course__item">
       <div className="course__img">
-        <img src={imgUrl} alt="" className="" />
+        <img src={imgUrl} alt="" className="image" />
       </div>
 
       <div className="course__details">
@@ -28,7 +28,7 @@ const CourseCard = (props) => {
           </p>
 
           <p className="enroll d-flex align-items-center gap-1">
-            <a href="#"> Enroll Now</a>
+            <a href="#home"> Enroll Now</a>
           </p>
         </div>
       </div>

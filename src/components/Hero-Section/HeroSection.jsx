@@ -5,7 +5,7 @@ import './HeroSection.css'
 
 const HeroSection = () => {
   return (
-    <section>
+    <section id='home'>
         <Container>
             <Row>
                 <Col lg='6' md='6'>
