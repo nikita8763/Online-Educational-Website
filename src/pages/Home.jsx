@@ -7,6 +7,9 @@ import Courses from '../components/Courses-section/Courses'
 import ChooseUs from '../components/Choose-us/ChooseUs'
 import Feature from '../components/Feature-section/Feature'
 import FreeCourse from '../components/Free-course-section/FreeCourse'
+import Testimonial from '../components/Testimonial/Testimonial'
+import Newsletter from '../components/Newsletter/Newsletter'
+import Footer from '../components/Footer/Footer'
 
 
 const Home = () => {
@@ -20,6 +23,9 @@ const Home = () => {
         <ChooseUs/>
         <Feature/>
         <FreeCourse/>
+        <Testimonial/>
+        <Newsletter/>
+        <Footer/>
     </Fragment>
   )
 }
